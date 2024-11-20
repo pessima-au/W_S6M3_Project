@@ -34,3 +34,74 @@ header, footer {
   align-items: center;
   padding: 1rem;
 }
+
+.navigation-controls {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #007acc;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005f99;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+input[type="date"] {
+  padding: 5px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.navigation-controls {
+  margin: 20px 0;
+  display: flex;
+  align-items: center
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+input[type="date"] {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.media-content {
+  max-width: 800px;
+}
+
+.loading-message,
+.error-message {
+  font-size: 1.2rem;
+  color: #f44336;
+}
