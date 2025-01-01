@@ -1,4 +1,4 @@
-.media-display {
+/* .media-display {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,18 +16,11 @@
     transform: translateY(-10px);
   }
   
-  .media-display img,
-  .media-display iframe {
-    width: 100%;
-    height: auto;
-    max-width: 600px; /* Adjust based on your desired max width */
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  }
   
+ 
   .media-display iframe {
     border-radius: 5px;
-    height: 350px; /* Set height for video display */
+    height: 350px;
   }
   
   .media-display h2 {
@@ -44,4 +37,4 @@
     color: #888;
     text-align: center;
   }
-  
+    */
